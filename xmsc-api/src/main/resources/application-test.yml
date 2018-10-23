@@ -1,0 +1,18 @@
+life:
+  props:
+    alipay:
+      sellerPayId: 66 #此处需要修改
+      partner: 2088031615139704
+      privateKey: MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBANTGjD3EcxMmnwYyVa+MPA4gJJMNGDjeISQbD4Px1OQ+VezXgKCPj+MPzFBgEoIQgCGKzVDUrYJLLHLH
+                  EmkdMj+LckDNvRnYdmX+Oqgl1cC0UeW2EFH2r7VGdzD8FYxeLJ3LSrS9Y4vXZpyy/dtuOCvvGuPX+Egm3gpoOeMhATnxAgMBAAECgYA7w6kQkGViM67nJqw6qsETlqOvSjZLgtj8Mz2gagTKN1gbNkzCzJA1zvIsgU+xiMD0qvAQjCxQNJ0/f/sD21eJTooq1O/WhPOQj77JM6RlQHJEcRqafF/as9Fzuq+Mi51KfaK40YFBS5Zrwu789BHamsHZN58iqJGNy/RrhvqgAQJBAPFwGRl5joNMdiZKTW9RO32lcH4PfVuPGUuhiF+UFSUpHb16SQl3XPGWXbodtWkSQHotmsN6YQn5nYW9F6e0VsECQQDhm+RLpWbGK8BnBezCHydbgY5tTuHcEX3HQ+trLHoSRWPdkVwt8Qodqvv6LCNOtHUEKaRmmAQnoCMLnxGhC18xAkBCN1JK8FGrpO7KdZpjK047mYIOsMTatZZkbbrvK7fY5zvm2YDqfbgZ8flmr/svA/h3CcbmUcwHZlRTd5bjQcyBAkAqUlojLqX26uIu8VeWms2BRu525uNLqyRTKxSQiElmAApZ2BjYrWzeX+Lg7UK6UvPYkg87B61P2aR5W5+s/DshAkEAxSswHEYrVHHTcvubd4IhmS8dEWq62xiP/SuvQ0gw9VCx2BImtZJJRXpvbxlKmTKewKKPfzNhKoG+YSuAwzXdwg==
+      publicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB
+      notifyUrl: http://test-life-api.51bushou.com/api/pay/alipayCallback
+      logPath: /logs
+      inputCharset: utf-8
+      signType: RSA
+    weChat:
+      appId: wx76595ee4455d7d62
+      appSecret: 03e3a9b8edefa199eabf4aa6939fb829
+spring:
+  profiles:
+    include: common-test

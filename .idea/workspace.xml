@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c953d6-116d-4524-b616-568e48b923c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/xmsc-api/src/main/resources/application-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/dictionaries/shengjianhua.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/xmsc-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-bean/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-bean/target/classes/com/xm/xmscbean/utils/MoneyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-bean/target/classes/com/xm/xmscbean/utils/MoneyUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-dal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-dal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xmsc-bean/target/" />
@@ -39,7 +30,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/xmsc$XmscBeanApplication.ic" NAME="XmscBeanApplication Coverage Results" MODIFIED="1539769378072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplication.ic" NAME="XmscAdminApplication Coverage Results" MODIFIED="1540261251681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540289074265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540293366721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xm.xmscapi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplicationTests_contextLoads.ic" NAME="XmscAdminApplicationTests.contextLoads Coverage Results" MODIFIED="1539929988402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -54,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+            <state relative-caret-position="131">
+              <caret line="364" column="5" selection-start-line="364" selection-start-column="2" selection-end-line="364" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -66,1526 +57,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MAVEN/com.xm:xmsc-api:0.0.1-SNAPSHOT" pinned="false" current-in-tab="false">
-        <entry file="uml://MAVEN/com.xm:xmsc-api:0.0.1-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>com.xm:xmsc-api:0.0.1-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="3182.1797024173793" y="2100.0">com.xm:xmsc-api:0.0.1-SNAPSHOT</node>
-                <node x="920.9469643221405" y="1750.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT</node>
-                <node x="49.5" y="1170.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-collections:commons-collections:jar:3.2.2</node>
-                <node x="0.0" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3</node>
-                <node x="513.5345112802133" y="0.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
-                <node x="462.0" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.6</node>
-                <node x="913.708333333333" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE</node>
-                <node x="964.5416666666661" y="1170.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-                <node x="2453.9095112802133" y="730.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre</node>
-                <node x="2463.1595112802133" y="640.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.code.findbugs:jsr305:jar:1.3.9</node>
-                <node x="2058.1595112802133" y="640.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.checkerframework:checker-compat-qual:jar:2.0.0</node>
-                <node x="2556.1595112802133" y="640.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.errorprone:error_prone_annotations:jar:2.1.3</node>
-                <node x="2762.1595112802133" y="640.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
-                <node x="2244.1595112802133" y="640.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14</node>
-                <node x="770.0" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1</node>
-                <node x="727.0" y="1170.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4</node>
-                <node x="774.25" y="1040.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4/com.fasterxml.jackson.core:jackson-core:jar:2.9.4</node>
-                <node x="1861.57617794688" y="940.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20</node>
-                <node x="348.0" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
-                <node x="477.54300012517433" y="1170.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
-                <node x="235.5" y="1170.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.11</node>
-                <node x="616.0" y="1440.0">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0</node>
-                <node x="4478.938475477179" y="1960.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT</node>
-                <node x="6520.3328810775565" y="1750.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/junit:junit:jar:4.12</node>
-                <node x="4609.691457287336" y="1440.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE</node>
-                <node x="4901.363238220414" y="200.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-test:jar:4.3.13.RELEASE</node>
-                <node x="4792.863238220414" y="440.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE</node>
-                <node x="4789.363238220414" y="290.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE</node>
-                <node x="4424.134511280214" y="1750.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20</node>
-                <node x="4462.134511280214" y="1440.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
-                <node x="4377.134511280214" y="1440.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
-                <node x="2586.5970112802133" y="1750.0">com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.xm:xmsc-bean:jar:0.0.1-SNAPSHOT</node>
-                <node x="4144.284511280213" y="1750.0">com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT</node>
-                <node x="4043.57617794688" y="1440.0">com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/tk.mybatis:mapper:jar:3.5.3</node>
-                <node x="3963.57617794688" y="1170.0">com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/javax.persistence:persistence-api:jar:1.0</node>
-                <node x="2657.61740488708" y="1960.0">com.xm:xmsc-service:jar:0.0.1-SNAPSHOT</node>
-                <node x="5095.9370477442235" y="1960.0">tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3</node>
-                <node x="5561.035459118838" y="1440.0">tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE</node>
-                <node x="5218.9370477442235" y="1750.0">tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.mybatis:mybatis:jar:3.4.5</node>
-                <node x="4992.5203810775565" y="1750.0">tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.mybatis:mybatis-spring:jar:1.3.1</node>
-                <node x="3668.51367794688" y="440.0">tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25</node>
-                <node x="1475.6178446135466" y="1440.0">org.projectlombok:lombok:jar:1.16.20</node>
-                <node x="2687.6595112802133" y="1440.0">io.springfox:springfox-swagger2:jar:2.9.2</node>
-                <node x="1934.32617794688" y="1040.0">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20</node>
-                <node x="1361.95117794688" y="940.0">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4</node>
-                <node x="3228.9720112802133" y="940.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2</node>
-                <node x="3072.1595112802133" y="860.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2</node>
-                <node x="3071.4095112802133" y="730.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/net.bytebuddy:byte-buddy:jar:1.8.12</node>
-                <node x="3283.3470112802133" y="1040.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2</node>
-                <node x="2743.1144230769232" y="1170.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2</node>
-                <node x="3460.63867794688" y="1040.0">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2</node>
-                <node x="2934.1595112802133" y="730.0">io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0</node>
-                <node x="3394.7220112802133" y="640.0">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
-                <node x="3480.2220112802133" y="730.0">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
-                <node x="2467.4928446135464" y="1170.0">io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
-                <node x="3687.82617794688" y="1440.0">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
-                <node x="1650.07617794688" y="1440.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
-                <node x="1463.95117794688" y="290.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
-                <node x="1702.57617794688" y="200.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
-                <node x="1637.20117794688" y="440.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
-                <node x="1776.07617794688" y="80.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
-                <node x="1296.95117794688" y="290.0">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
-                <node x="3826.57617794688" y="1170.0">javax.validation:validation-api:jar:2.0.1.Final</node>
-                <node x="4622.884511280214" y="1170.0">org.springframework.boot:spring-boot:jar:1.5.8.RELEASE</node>
-                <node x="6952.995178607855" y="1960.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE</node>
-                <node x="6345.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE</node>
-                <node x="6231.6453810775565" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE</node>
-                <node x="6481.368792452171" y="1170.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-                <node x="6522.368792452171" y="1040.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-                <node x="6182.222959118838" y="640.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-                <node x="6314.222959118838" y="640.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-                <node x="6033.222959118838" y="640.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
-                <node x="6658.368792452171" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-                <node x="7140.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.6.RELEASE</node>
-                <node x="5662.2703810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE</node>
-                <node x="5782.035459118838" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE</node>
-                <node x="5923.5203810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-                <node x="5959.035459118838" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-                <node x="5941.035459118838" y="1170.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-                <node x="5980.035459118838" y="1040.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-                <node x="6601.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-                <node x="5321.9370477442235" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-                <node x="5435.035459118838" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.9</node>
-                <node x="5268.035459118838" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.9</node>
-                <node x="5156.035459118838" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-                <node x="6931.1662144108905" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-                <node x="6985.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-                <node x="7298.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-                <node x="7290.8328810775565" y="1440.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-                <node x="6861.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-test:jar:5.0.10.RELEASE</node>
-                <node x="6729.3328810775565" y="1750.0">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-                <node x="4170.034511280213" y="1440.0">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final</node>
-                <node x="4147.701177946879" y="1170.0">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-                <node x="4286.701177946879" y="1170.0">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/com.fasterxml:classmate:jar:1.3.4</node>
-                <node x="1390.45117794688" y="1170.0">org.springframework:spring-web:jar:4.3.13.RELEASE</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/tk.mybatis:mapper:jar:3.5.3">
-                  <point x="22.5" y="-15.0" />
-                  <point x="4211.784511280213" y="1560.0" />
-                  <point x="4083.57617794688" y="1560.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1">
-                  <point x="-22.05882352941171" y="-15.0" />
-                  <point x="961.3881407927288" y="1680.0" />
-                  <point x="797.5" y="1680.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="22.75" y="-15.0" />
-                  <point x="4857.613238220414" y="170.0" />
-                  <point x="1845.3838702545725" y="170.0" />
-                  <point x="16.307692307692378" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE">
-                  <point x="-31.5" y="-15.0" />
-                  <point x="4157.784511280213" y="1620.0" />
-                  <point x="1740.3761779468803" y="1620.0" />
-                  <point x="25.800000000000182" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-                  <point x="42.692307692307736" y="-15.0" />
-                  <point x="7088.187486300163" y="1840.0" />
-                  <point x="7052.8328810775565" y="1840.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1">
-                  <point x="0.0" y="-15.0" />
-                  <point x="7045.495178607855" y="1870.0" />
-                  <point x="6785.3328810775565" y="1870.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="72.875" y="-15.0" />
-                  <point x="2840.0345112802133" y="1370.0" />
-                  <point x="3710.51367794688" y="1370.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2">
-                  <point x="-36.5" y="-15.0" />
-                  <point x="3319.8470112802133" y="1020.0" />
-                  <point x="3302.0970112802133" y="1020.0" />
-                  <point x="14.625" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4" target="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4">
-                  <point x="-35.25" y="-15.0" />
-                  <point x="762.25" y="1150.0" />
-                  <point x="763.75" y="1150.0" />
-                  <point x="763.75" y="1010.0" />
-                  <point x="1402.20117794688" y="1010.0" />
-                  <point x="-40.25" y="15.0" />
-                </edge>
-                <edge source="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE">
-                  <point x="94.87500000000023" y="-15.0" />
-                  <point x="5317.3120477442235" y="1930.0" />
-                  <point x="5311.4370477442235" y="1930.0" />
-                  <point x="5311.4370477442235" y="1730.0" />
-                  <point x="5594.535459118838" y="1730.0" />
-                  <point x="-67.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE">
-                  <point x="36.764705882353155" y="-15.0" />
-                  <point x="1020.2116702044937" y="1670.0" />
-                  <point x="1662.9761779468797" y="1670.0" />
-                  <point x="-51.600000000000364" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final">
-                  <point x="51.75" y="-15.0" />
-                  <point x="2766.86740488708" y="1940.0" />
-                  <point x="4301.534511280213" y="1940.0" />
-                  <point x="4301.534511280213" y="1530.0" />
-                  <point x="4245.534511280213" y="1530.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="-23.5" y="-15.0" />
-                  <point x="5947.0203810775565" y="1730.0" />
-                  <point x="5930.535459118838" y="1730.0" />
-                  <point x="5930.535459118838" y="530.0" />
-                  <point x="3723.436754869957" y="530.0" />
-                  <point x="12.923076923077133" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="-31.0" y="-15.0" />
-                  <point x="6391.8328810775565" y="1710.0" />
-                  <point x="6221.1453810775565" y="1710.0" />
-                  <point x="6221.1453810775565" y="1240.0" />
-                  <point x="4724.134511280214" y="1240.0" />
-                  <point x="47.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25">
-                  <point x="-25.875" y="-15.0" />
-                  <point x="6309.2703810775565" y="1220.0" />
-                  <point x="6238.222959118838" y="1220.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT">
-                  <point x="3.2142857142853245" y="-15.0" />
-                  <point x="3230.3939881316646" y="2020.0" />
-                  <point x="4211.784511280213" y="2020.0" />
-                  <point x="22.5" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="22.05882352941171" y="-15.0" />
-                  <point x="1005.5057878515522" y="1640.0" />
-                  <point x="1380.4980967143867" y="1640.0" />
-                  <point x="1380.4980967143867" y="1400.0" />
-                  <point x="4629.634511280214" y="1400.0" />
-                  <point x="-47.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="35.0" y="-15.0" />
-                  <point x="4880.363238220414" y="420.0" />
-                  <point x="4890.863238220414" y="420.0" />
-                  <point x="4890.863238220414" y="160.0" />
-                  <point x="1853.5377164084182" y="160.0" />
-                  <point x="24.46153846153811" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0">
-                  <point x="-85.38461538461536" y="-15.0" />
-                  <point x="6960.11056322324" y="1930.0" />
-                  <point x="5379.9370477442235" y="1930.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT">
-                  <point x="-51.80000000000018" y="-15.0" />
-                  <point x="4482.638475477179" y="1880.0" />
-                  <point x="1014.6969643221405" y="1880.0" />
-                  <point x="31.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE">
-                  <point x="22.199999999999818" y="-15.0" />
-                  <point x="4556.638475477179" y="1900.0" />
-                  <point x="4678.691457287336" y="1900.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="-31.5" y="-15.0" />
-                  <point x="2816.6144230769232" y="1090.0" />
-                  <point x="2923.6595112802133" y="1090.0" />
-                  <point x="2923.6595112802133" y="580.0" />
-                  <point x="3678.2059856391875" y="580.0" />
-                  <point x="-32.30769230769238" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="14.705882352941444" y="-15.0" />
-                  <point x="998.152846675082" y="1630.0" />
-                  <point x="1373.1451555379165" y="1630.0" />
-                  <point x="1373.1451555379165" y="1380.0" />
-                  <point x="3836.32617794688" y="1380.0" />
-                  <point x="-48.75" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre">
-                  <point x="-42.25" y="-15.0" />
-                  <point x="3502.88867794688" y="1010.0" />
-                  <point x="3447.7220112802133" y="1010.0" />
-                  <point x="3447.7220112802133" y="790.0" />
-                  <point x="2517.809511280213" y="790.0" />
-                  <point x="28.399999999999636" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-collections:commons-collections:jar:3.2.2">
-                  <point x="-51.47058823529369" y="-15.0" />
-                  <point x="931.9763760868468" y="1720.0" />
-                  <point x="174.0" y="1720.0" />
-                  <point x="41.5" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="85.38461538461524" y="-15.0" />
-                  <point x="7130.879793992471" y="1940.0" />
-                  <point x="7414.3328810775565" y="1940.0" />
-                  <point x="7414.3328810775565" y="130.0" />
-                  <point x="1877.9992548699572" y="130.0" />
-                  <point x="48.92307692307713" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14">
-                  <point x="-14.199999999999818" y="-15.0" />
-                  <point x="2475.2095112802135" y="700.0" />
-                  <point x="2343.6595112802133" y="700.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="-40.25" y="-15.0" />
-                  <point x="2674.86740488708" y="1930.0" />
-                  <point x="1508.5345112802136" y="1930.0" />
-                  <point x="-6.58333333333303" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11">
-                  <point x="32.25" y="-15.0" />
-                  <point x="6578.118792452171" y="1150.0" />
-                  <point x="6579.868792452171" y="1150.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="14.800000000000182" y="-15.0" />
-                  <point x="4549.238475477179" y="1890.0" />
-                  <point x="4557.634511280214" y="1890.0" />
-                  <point x="4557.634511280214" y="1280.0" />
-                  <point x="3914.32617794688" y="1280.0" />
-                  <point x="29.25" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2">
-                  <point x="6.625" y="-15.0" />
-                  <point x="2773.7845112802133" y="1320.0" />
-                  <point x="3272.8470112802133" y="1320.0" />
-                  <point x="-14.625" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE">
-                  <point x="10.75" y="-15.0" />
-                  <point x="1725.32617794688" y="1340.0" />
-                  <point x="1700.20117794688" y="1340.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.9">
-                  <point x="38.66666666666674" y="-15.0" />
-                  <point x="5418.6037144108905" y="1720.0" />
-                  <point x="5488.035459118838" y="1720.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="6422.8328810775565" y="1700.0" />
-                  <point x="6335.1453810775565" y="1700.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="27.0" y="-15.0" />
-                  <point x="4703.884511280214" y="1150.0" />
-                  <point x="4682.384511280214" y="1150.0" />
-                  <point x="4682.384511280214" y="180.0" />
-                  <point x="1837.2300241007258" y="180.0" />
-                  <point x="8.153846153845734" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
-                  <point x="17.25" y="-15.0" />
-                  <point x="2732.36740488708" y="1910.0" />
-                  <point x="3023.4095112802133" y="1910.0" />
-                  <point x="3023.4095112802133" y="1720.0" />
-                  <point x="3738.22617794688" y="1720.0" />
-                  <point x="-33.59999999999991" y="15.0" />
-                </edge>
-                <edge source="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="5661.535459118838" y="1250.0" />
-                  <point x="4710.634511280214" y="1250.0" />
-                  <point x="33.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4534.438475477179" y="1810.0" />
-                  <point x="4366.634511280214" y="1810.0" />
-                  <point x="4366.634511280214" y="1290.0" />
-                  <point x="1485.784511280213" y="1290.0" />
-                  <point x="43.33333333333303" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE">
-                  <point x="-42.69230769230762" y="-15.0" />
-                  <point x="7002.802870915548" y="1900.0" />
-                  <point x="6422.8328810775565" y="1900.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/tk.mybatis:mapper:jar:3.5.3" target="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/javax.persistence:persistence-api:jar:1.0">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4083.57617794688" y="1390.0" />
-                  <point x="4060.32617794688" y="1390.0" />
-                  <point x="32.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE">
-                  <point x="-32.25" y="-15.0" />
-                  <point x="1682.32617794688" y="1360.0" />
-                  <point x="1615.70117794688" y="1360.0" />
-                  <point x="1615.70117794688" y="390.0" />
-                  <point x="1369.95117794688" y="390.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="0.0" y="-15.0" />
-                  <point x="7052.8328810775565" y="1730.0" />
-                  <point x="7034.4995477442235" y="1730.0" />
-                  <point x="41.33333333333326" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE">
-                  <point x="-22.5" y="-15.0" />
-                  <point x="3204.6797024173793" y="2050.0" />
-                  <point x="1062.875535750712" y="2050.0" />
-                  <point x="1062.875535750712" y="1680.0" />
-                  <point x="1688.77617794688" y="1680.0" />
-                  <point x="-25.800000000000182" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/net.bytebuddy:byte-buddy:jar:1.8.12">
-                  <point x="10.5" y="-15.0" />
-                  <point x="3145.6595112802133" y="800.0" />
-                  <point x="3124.4095112802133" y="800.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="5.75" y="-15.0" />
-                  <point x="2720.86740488708" y="1900.0" />
-                  <point x="2857.1595112802133" y="1900.0" />
-                  <point x="2857.1595112802133" y="1390.0" />
-                  <point x="3855.82617794688" y="1390.0" />
-                  <point x="-29.25" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="3287.4720112802133" y="920.0" />
-                  <point x="3103.6595112802133" y="920.0" />
-                  <point x="-31.5" y="15.0" />
-                </edge>
-                <edge source="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4245.534511280213" y="1390.0" />
-                  <point x="4207.201177946879" y="1390.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3">
-                  <point x="-44.11764705882342" y="-15.0" />
-                  <point x="939.3293172633171" y="1710.0" />
-                  <point x="394.5" y="1710.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="13.41666666666697" y="-15.0" />
-                  <point x="1007.625" y="1350.0" />
-                  <point x="1015.5416666666661" y="1350.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6">
-                  <point x="31.0" y="-15.0" />
-                  <point x="425.5" y="1350.0" />
-                  <point x="521.0430001251743" y="1350.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
-                  <point x="-13.5" y="-15.0" />
-                  <point x="4175.784511280213" y="1600.0" />
-                  <point x="3805.4261779468798" y="1600.0" />
-                  <point x="33.59999999999991" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3">
-                  <point x="35.35714285714312" y="-15.0" />
-                  <point x="3262.5368452745224" y="2070.0" />
-                  <point x="5222.4370477442235" y="2070.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT">
-                  <point x="9.642857142856883" y="-15.0" />
-                  <point x="3236.822559560236" y="2030.0" />
-                  <point x="4534.438475477179" y="2030.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
-                  <point x="31.5" y="-15.0" />
-                  <point x="3166.6595112802133" y="820.0" />
-                  <point x="3187.9095112802133" y="820.0" />
-                  <point x="3187.9095112802133" y="710.0" />
-                  <point x="3439.7220112802133" y="710.0" />
-                  <point x="-30.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final">
-                  <point x="58.823529411764866" y="-15.0" />
-                  <point x="1042.2704937339054" y="1730.0" />
-                  <point x="4185.134511280214" y="1730.0" />
-                  <point x="-60.399999999999636" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="-28.92857142857156" y="-15.0" />
-                  <point x="3198.2511309888077" y="2060.0" />
-                  <point x="1056.4469643221405" y="2060.0" />
-                  <point x="1056.4469643221405" y="1660.0" />
-                  <point x="1495.3678446135466" y="1660.0" />
-                  <point x="-19.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="47.25" y="-15.0" />
-                  <point x="1747.45117794688" y="270.0" />
-                  <point x="1753.32617794688" y="270.0" />
-                  <point x="-7.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="28.461538461538566" y="-15.0" />
-                  <point x="7073.956717069394" y="1850.0" />
-                  <point x="6974.8328810775565" y="1850.0" />
-                  <point x="6974.8328810775565" y="1730.0" />
-                  <point x="6993.1662144108905" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25">
-                  <point x="-77.625" y="-15.0" />
-                  <point x="6257.5203810775565" y="1230.0" />
-                  <point x="6097.722959118838" y="1230.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2">
-                  <point x="19.875" y="-15.0" />
-                  <point x="2787.0345112802133" y="1330.0" />
-                  <point x="3392.8470112802133" y="1330.0" />
-                  <point x="36.5" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE">
-                  <point x="-62.0" y="-15.0" />
-                  <point x="6360.8328810775565" y="1720.0" />
-                  <point x="5728.535459118838" y="1720.0" />
-                  <point x="67.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
-                  <point x="-16.07142857142844" y="-15.0" />
-                  <point x="3211.108273845951" y="2040.0" />
-                  <point x="1069.3041071792836" y="2040.0" />
-                  <point x="1069.3041071792836" y="1700.0" />
-                  <point x="2735.359511280213" y="1700.0" />
-                  <point x="-31.800000000000182" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE">
-                  <point x="37.0" y="-15.0" />
-                  <point x="4571.438475477179" y="1920.0" />
-                  <point x="4845.363238220414" y="1920.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="40.5" y="-15.0" />
-                  <point x="4229.784511280213" y="1730.0" />
-                  <point x="4331.534511280213" y="1730.0" />
-                  <point x="4331.534511280213" y="1420.0" />
-                  <point x="4656.634511280214" y="1420.0" />
-                  <point x="-20.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="0.0" y="-15.0" />
-                  <point x="6363.722959118838" y="500.0" />
-                  <point x="3742.8213702545722" y="500.0" />
-                  <point x="32.30769230769238" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
-                  <point x="-56.923076923076906" y="-15.0" />
-                  <point x="6988.572101684778" y="1910.0" />
-                  <point x="5970.5203810775565" y="1910.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="-31.625" y="-15.0" />
-                  <point x="5190.8120477442235" y="1920.0" />
-                  <point x="5130.0203810775565" y="1920.0" />
-                  <point x="5130.0203810775565" y="540.0" />
-                  <point x="3716.9752164084184" y="540.0" />
-                  <point x="6.4615384615385665" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre">
-                  <point x="-52.5" y="-15.0" />
-                  <point x="2795.6144230769232" y="1130.0" />
-                  <point x="2489.4095112802133" y="1130.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="-32.25" y="-15.0" />
-                  <point x="6513.618792452171" y="1150.0" />
-                  <point x="6511.868792452171" y="1150.0" />
-                  <point x="6511.868792452171" y="490.0" />
-                  <point x="3749.282908716111" y="490.0" />
-                  <point x="38.769230769230944" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre">
-                  <point x="-52.5" y="-15.0" />
-                  <point x="3082.6595112802133" y="830.0" />
-                  <point x="2503.609511280213" y="830.0" />
-                  <point x="14.199999999999818" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="0.0" y="-15.0" />
-                  <point x="6550.8328810775565" y="1730.0" />
-                  <point x="6951.8328810775565" y="1730.0" />
-                  <point x="-41.33333333333326" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/junit:junit:jar:4.12">
-                  <point x="-28.461538461538453" y="-15.0" />
-                  <point x="7017.033640146317" y="1890.0" />
-                  <point x="6566.0828810775565" y="1890.0" />
-                  <point x="15.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE">
-                  <point x="40.25" y="-15.0" />
-                  <point x="1034.458333333333" y="1340.0" />
-                  <point x="1080.1769230769232" y="1340.0" />
-                  <point x="1080.1769230769232" y="410.0" />
-                  <point x="1474.15117794688" y="410.0" />
-                  <point x="-40.80000000000018" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE">
-                  <point x="-28.75" y="-15.0" />
-                  <point x="2686.36740488708" y="1920.0" />
-                  <point x="1714.57617794688" y="1920.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3">
-                  <point x="-58.823529411764866" y="-15.0" />
-                  <point x="924.6234349103756" y="1730.0" />
-                  <point x="78.0" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="-67.08333333333303" y="-15.0" />
-                  <point x="927.125" y="1350.0" />
-                  <point x="909.75" y="1350.0" />
-                  <point x="909.75" y="130.0" />
-                  <point x="1780.153101023803" y="130.0" />
-                  <point x="-48.92307692307713" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
-                  <point x="42.25" y="-15.0" />
-                  <point x="3587.38867794688" y="1020.0" />
-                  <point x="3592.7220112802133" y="1020.0" />
-                  <point x="22.5" y="15.0" />
-                </edge>
-                <edge source="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="-50.33333333333303" y="-15.0" />
-                  <point x="4195.20117794688" y="1380.0" />
-                  <point x="3894.82617794688" y="1380.0" />
-                  <point x="9.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="22.5" y="-15.0" />
-                  <point x="3249.6797024173793" y="2050.0" />
-                  <point x="4975.591809648985" y="2050.0" />
-                  <point x="4975.591809648985" y="1270.0" />
-                  <point x="3933.82617794688" y="1270.0" />
-                  <point x="48.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre">
-                  <point x="-14.705882352941444" y="-15.0" />
-                  <point x="968.7410819691991" y="1670.0" />
-                  <point x="898.75" y="1670.0" />
-                  <point x="898.75" y="820.0" />
-                  <point x="2461.0095112802137" y="820.0" />
-                  <point x="-28.399999999999636" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="32.25" y="-15.0" />
-                  <point x="1746.82617794688" y="1360.0" />
-                  <point x="1773.70117794688" y="1360.0" />
-                  <point x="1773.70117794688" y="270.0" />
-                  <point x="1767.82617794688" y="270.0" />
-                  <point x="7.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
-                  <point x="51.47058823529369" y="-15.0" />
-                  <point x="1034.9175525574342" y="1710.0" />
-                  <point x="3704.62617794688" y="1710.0" />
-                  <point x="-67.19999999999982" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6">
-                  <point x="-38.66666666666674" y="-15.0" />
-                  <point x="5341.2703810775565" y="1720.0" />
-                  <point x="5202.035459118838" y="1720.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4845.363238220414" y="420.0" />
-                  <point x="4834.863238220414" y="420.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="-37.0" y="-15.0" />
-                  <point x="4497.438475477179" y="1860.0" />
-                  <point x="4122.784511280213" y="1860.0" />
-                  <point x="4122.784511280213" y="1650.0" />
-                  <point x="1534.8678446135466" y="1650.0" />
-                  <point x="19.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final">
-                  <point x="31.5" y="-15.0" />
-                  <point x="4220.784511280213" y="1550.0" />
-                  <point x="4215.3345112802135" y="1550.0" />
-                  <point x="-30.199999999999818" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
-                  <point x="25.875" y="-15.0" />
-                  <point x="6361.0203810775565" y="1420.0" />
-                  <point x="6363.722959118838" y="1420.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2">
-                  <point x="-39.0" y="-15.0" />
-                  <point x="39.0" y="50.0" />
-                  <point x="537.8678446135464" y="50.0" />
-                  <point x="-48.66666666666697" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE">
-                  <point x="-15.75" y="-15.0" />
-                  <point x="1684.45117794688" y="360.0" />
-                  <point x="1535.3511779468797" y="360.0" />
-                  <point x="20.399999999999636" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-collections:commons-collections:jar:3.2.2">
-                  <point x="39.0" y="-15.0" />
-                  <point x="117.0" y="1420.0" />
-                  <point x="91.0" y="1420.0" />
-                  <point x="-41.5" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="18.75" y="-15.0" />
-                  <point x="3488.4720112802133" y="560.0" />
-                  <point x="3475.2220112802133" y="560.0" />
-                  <point x="3475.2220112802133" y="270.0" />
-                  <point x="1782.32617794688" y="270.0" />
-                  <point x="21.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
-                  <point x="71.15384615384619" y="-15.0" />
-                  <point x="7116.649024761702" y="1930.0" />
-                  <point x="7347.3328810775565" y="1930.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="29.41176470588198" y="-15.0" />
-                  <point x="1012.8587290280225" y="1650.0" />
-                  <point x="1482.2011779468796" y="1650.0" />
-                  <point x="-32.91666666666697" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.assertj:assertj-core:jar:3.9.1">
-                  <point x="-14.230769230769283" y="-15.0" />
-                  <point x="7031.264409377086" y="1880.0" />
-                  <point x="6655.3328810775565" y="1880.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
-                  <point x="-3.2142857142853245" y="-15.0" />
-                  <point x="3223.965416703094" y="2010.0" />
-                  <point x="4133.784511280213" y="2010.0" />
-                  <point x="4133.784511280213" y="1640.0" />
-                  <point x="3771.82617794688" y="1640.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE">
-                  <point x="39.0" y="-15.0" />
-                  <point x="1481.45117794688" y="1150.0" />
-                  <point x="1598.45117794688" y="1150.0" />
-                  <point x="1598.45117794688" y="620.0" />
-                  <point x="1675.0011779468803" y="620.0" />
-                  <point x="-25.199999999999818" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20">
-                  <point x="-46.375" y="-15.0" />
-                  <point x="2720.7845112802133" y="1350.0" />
-                  <point x="1923.82617794688" y="1350.0" />
-                  <point x="-20.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-test:jar:5.0.10.RELEASE">
-                  <point x="14.230769230769283" y="-15.0" />
-                  <point x="7059.725947838625" y="1860.0" />
-                  <point x="6912.8328810775565" y="1860.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE">
-                  <point x="57.75" y="-15.0" />
-                  <point x="5835.5203810775565" y="1730.0" />
-                  <point x="5851.035459118838" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
-                  <point x="46.375" y="-15.0" />
-                  <point x="2813.5345112802133" y="1350.0" />
-                  <point x="3688.51367794688" y="1350.0" />
-                  <point x="3688.51367794688" y="840.0" />
-                  <point x="3637.7220112802133" y="840.0" />
-                  <point x="67.5" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2">
-                  <point x="94.5" y="-15.0" />
-                  <point x="2942.6144230769232" y="1150.0" />
-                  <point x="3488.8053446135464" y="1150.0" />
-                  <point x="-56.333333333333485" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4/com.fasterxml.jackson.core:jackson-core:jar:2.9.4">
-                  <point x="35.25" y="-15.0" />
-                  <point x="832.75" y="1150.0" />
-                  <point x="831.25" y="1150.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-test:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4952.863238220414" y="150.0" />
-                  <point x="1861.6915625622648" y="150.0" />
-                  <point x="32.615384615384755" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE">
-                  <point x="-40.25" y="-15.0" />
-                  <point x="953.958333333333" y="1340.0" />
-                  <point x="920.75" y="1340.0" />
-                  <point x="920.75" y="390.0" />
-                  <point x="1321.284511280213" y="390.0" />
-                  <point x="-48.66666666666697" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.j2objc:j2objc-annotations:jar:1.1">
-                  <point x="28.399999999999636" y="-15.0" />
-                  <point x="2517.809511280213" y="710.0" />
-                  <point x="2837.6595112802133" y="710.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
-                  <point x="-22.199999999999818" y="-15.0" />
-                  <point x="4512.238475477179" y="1840.0" />
-                  <point x="4312.534511280213" y="1840.0" />
-                  <point x="4312.534511280213" y="1520.0" />
-                  <point x="2830.7595112802137" y="1520.0" />
-                  <point x="63.600000000000364" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
-                  <point x="59.625" y="-15.0" />
-                  <point x="2826.7845112802133" y="1360.0" />
-                  <point x="3699.51367794688" y="1360.0" />
-                  <point x="3699.51367794688" y="700.0" />
-                  <point x="3529.7220112802133" y="700.0" />
-                  <point x="60.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0">
-                  <point x="-59.625" y="-15.0" />
-                  <point x="2707.5345112802133" y="1360.0" />
-                  <point x="1851.07617794688" y="1360.0" />
-                  <point x="1851.07617794688" y="840.0" />
-                  <point x="2946.0345112802133" y="840.0" />
-                  <point x="-35.625" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
-                  <point x="-5.75" y="-15.0" />
-                  <point x="2709.36740488708" y="1890.0" />
-                  <point x="2767.1595112802133" y="1890.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT">
-                  <point x="-9.642857142856883" y="-15.0" />
-                  <point x="3217.5368452745224" y="2030.0" />
-                  <point x="2715.11740488708" y="2030.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="70.41666666666652" y="-15.0" />
-                  <point x="3615.5553446135464" y="1020.0" />
-                  <point x="3670.7220112802133" y="1020.0" />
-                  <point x="3670.7220112802133" y="620.0" />
-                  <point x="3704.0521394853413" y="620.0" />
-                  <point x="-6.4615384615385665" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE">
-                  <point x="-71.15384615384619" y="-15.0" />
-                  <point x="6974.341332454009" y="1920.0" />
-                  <point x="5777.7703810775565" y="1920.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="25.5" y="-15.0" />
-                  <point x="1540.45117794688" y="260.0" />
-                  <point x="1724.32617794688" y="260.0" />
-                  <point x="-36.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="-13.41666666666697" y="-15.0" />
-                  <point x="980.7916666666661" y="1330.0" />
-                  <point x="954.0416666666661" y="1330.0" />
-                  <point x="954.0416666666661" y="400.0" />
-                  <point x="1453.45117794688" y="400.0" />
-                  <point x="1453.45117794688" y="250.0" />
-                  <point x="1709.82617794688" y="250.0" />
-                  <point x="-50.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="0.0" y="-15.0" />
-                  <point x="6097.722959118838" y="520.0" />
-                  <point x="3729.898293331495" y="520.0" />
-                  <point x="19.384615384615245" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="53.75" y="-15.0" />
-                  <point x="1768.32617794688" y="1370.0" />
-                  <point x="1829.07617794688" y="1370.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2">
-                  <point x="-70.41666666666652" y="-15.0" />
-                  <point x="3474.7220112802133" y="1020.0" />
-                  <point x="3331.3470112802133" y="1020.0" />
-                  <point x="43.875" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.errorprone:error_prone_annotations:jar:2.1.3">
-                  <point x="14.199999999999818" y="-15.0" />
-                  <point x="2503.609511280213" y="700.0" />
-                  <point x="2649.1595112802133" y="700.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="394.5" y="1420.0" />
-                  <point x="383.0" y="1420.0" />
-                  <point x="383.0" y="60.0" />
-                  <point x="586.5345112802133" y="60.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final">
-                  <point x="16.07142857142844" y="-15.0" />
-                  <point x="3243.2511309888077" y="2040.0" />
-                  <point x="4969.163238220413" y="2040.0" />
-                  <point x="4969.163238220413" y="1490.0" />
-                  <point x="4305.934511280213" y="1490.0" />
-                  <point x="60.399999999999636" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE">
-                  <point x="-47.25" y="-15.0" />
-                  <point x="1652.95117794688" y="370.0" />
-                  <point x="1418.617844613547" y="370.0" />
-                  <point x="48.66666666666697" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT">
-                  <point x="-35.35714285714312" y="-15.0" />
-                  <point x="3191.822559560236" y="2070.0" />
-                  <point x="952.1969643221405" y="2070.0" />
-                  <point x="-31.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="-4.5" y="-15.0" />
-                  <point x="4184.784511280213" y="1590.0" />
-                  <point x="3866.32617794688" y="1590.0" />
-                  <point x="3866.32617794688" y="1300.0" />
-                  <point x="1468.45117794688" y="1300.0" />
-                  <point x="26.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
-                  <point x="10.5" y="-15.0" />
-                  <point x="2858.6144230769232" y="1110.0" />
-                  <point x="3050.6595112802133" y="1110.0" />
-                  <point x="3050.6595112802133" y="700.0" />
-                  <point x="3409.7220112802133" y="700.0" />
-                  <point x="-60.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="28.75" y="-15.0" />
-                  <point x="2743.86740488708" y="1920.0" />
-                  <point x="4008.32617794688" y="1920.0" />
-                  <point x="4008.32617794688" y="1410.0" />
-                  <point x="4643.134511280214" y="1410.0" />
-                  <point x="-33.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE">
-                  <point x="41.785714285714675" y="-15.0" />
-                  <point x="3268.965416703094" y="2080.0" />
-                  <point x="7045.495178607855" y="2080.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="-53.75" y="-15.0" />
-                  <point x="1660.82617794688" y="1370.0" />
-                  <point x="1451.117844613547" y="1370.0" />
-                  <point x="8.66666666666697" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0">
-                  <point x="-29.41176470588198" y="-15.0" />
-                  <point x="954.0351996162585" y="1690.0" />
-                  <point x="683.0" y="1690.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE">
-                  <point x="67.08333333333303" y="-15.0" />
-                  <point x="1061.291666666666" y="1350.0" />
-                  <point x="1091.1769230769232" y="1350.0" />
-                  <point x="1091.1769230769232" y="610.0" />
-                  <point x="1649.8011779468804" y="610.0" />
-                  <point x="-50.399999999999636" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20">
-                  <point x="7.400000000000091" y="-15.0" />
-                  <point x="4541.83847547718" y="1800.0" />
-                  <point x="4457.134511280214" y="1800.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE">
-                  <point x="-13.0" y="-15.0" />
-                  <point x="1429.45117794688" y="1140.0" />
-                  <point x="1351.45117794688" y="1140.0" />
-                  <point x="1351.45117794688" y="420.0" />
-                  <point x="1494.5511779468804" y="420.0" />
-                  <point x="-20.399999999999636" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1369.95117794688" y="150.0" />
-                  <point x="1796.4607933314953" y="150.0" />
-                  <point x="-32.615384615384755" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre">
-                  <point x="-72.875" y="-15.0" />
-                  <point x="2694.2845112802133" y="1370.0" />
-                  <point x="1840.07617794688" y="1370.0" />
-                  <point x="1840.07617794688" y="830.0" />
-                  <point x="2475.2095112802135" y="830.0" />
-                  <point x="-14.199999999999818" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE">
-                  <point x="-29.59999999999991" y="-15.0" />
-                  <point x="4504.83847547718" y="1850.0" />
-                  <point x="4246.484511280213" y="1850.0" />
-                  <point x="4246.484511280213" y="1540.0" />
-                  <point x="1766.1761779468804" y="1540.0" />
-                  <point x="51.600000000000364" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="4678.691457287336" y="1420.0" />
-                  <point x="4670.134511280214" y="1420.0" />
-                  <point x="-6.75" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20">
-                  <point x="-94.5" y="-15.0" />
-                  <point x="2753.6144230769232" y="1150.0" />
-                  <point x="2036.32617794688" y="1150.0" />
-                  <point x="34.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE">
-                  <point x="-56.25" y="-15.0" />
-                  <point x="3413.4720112802133" y="560.0" />
-                  <point x="1725.40117794688" y="560.0" />
-                  <point x="25.199999999999818" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0">
-                  <point x="-10.5" y="-15.0" />
-                  <point x="2837.6144230769232" y="1100.0" />
-                  <point x="2969.7845112802133" y="1100.0" />
-                  <point x="-11.875" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="-39.0" y="-15.0" />
-                  <point x="1403.45117794688" y="1150.0" />
-                  <point x="1286.45117794688" y="1150.0" />
-                  <point x="1286.45117794688" y="140.0" />
-                  <point x="1788.3069471776496" y="140.0" />
-                  <point x="-40.76923076923049" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final">
-                  <point x="-19.875" y="-15.0" />
-                  <point x="2747.2845112802133" y="1330.0" />
-                  <point x="2515.9928446135464" y="1330.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="45.0" y="-15.0" />
-                  <point x="3615.2220112802133" y="610.0" />
-                  <point x="3697.5906010238027" y="610.0" />
-                  <point x="-12.923076923077133" y="15.0" />
-                </edge>
-                <edge source="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/com.fasterxml:classmate:jar:1.3.4">
-                  <point x="50.33333333333303" y="-15.0" />
-                  <point x="4295.867844613546" y="1390.0" />
-                  <point x="4334.201177946879" y="1390.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="31.0" y="-15.0" />
-                  <point x="6453.8328810775565" y="1710.0" />
-                  <point x="6647.868792452171" y="1710.0" />
-                  <point x="6647.868792452171" y="140.0" />
-                  <point x="1869.8454087161106" y="140.0" />
-                  <point x="40.76923076923049" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0">
-                  <point x="-31.5" y="-15.0" />
-                  <point x="3103.6595112802133" y="820.0" />
-                  <point x="2993.5345112802133" y="820.0" />
-                  <point x="11.875" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2">
-                  <point x="33.125" y="-15.0" />
-                  <point x="2800.2845112802133" y="1340.0" />
-                  <point x="3545.13867794688" y="1340.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.6.RELEASE">
-                  <point x="56.923076923076906" y="-15.0" />
-                  <point x="7102.418255530933" y="1920.0" />
-                  <point x="7209.3328810775565" y="1920.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
-                  <point x="52.5" y="-15.0" />
-                  <point x="3187.6595112802133" y="830.0" />
-                  <point x="3502.7220112802133" y="830.0" />
-                  <point x="-67.5" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="-35.0" y="-15.0" />
-                  <point x="4810.363238220414" y="420.0" />
-                  <point x="4718.459511280213" y="420.0" />
-                  <point x="4718.459511280213" y="260.0" />
-                  <point x="1796.82617794688" y="260.0" />
-                  <point x="36.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
-                  <point x="31.5" y="-15.0" />
-                  <point x="2879.6144230769232" y="1120.0" />
-                  <point x="3208.6595112802133" y="1120.0" />
-                  <point x="3208.6595112802133" y="840.0" />
-                  <point x="3547.7220112802133" y="840.0" />
-                  <point x="-22.5" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE">
-                  <point x="-18.75" y="-15.0" />
-                  <point x="3450.9720112802133" y="560.0" />
-                  <point x="3464.2220112802133" y="560.0" />
-                  <point x="3464.2220112802133" y="340.0" />
-                  <point x="1555.7511779468803" y="340.0" />
-                  <point x="40.80000000000018" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT">
-                  <point x="40.25" y="-15.0" />
-                  <point x="2755.36740488708" y="1930.0" />
-                  <point x="4166.784511280213" y="1930.0" />
-                  <point x="-22.5" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2">
-                  <point x="73.5" y="-15.0" />
-                  <point x="2921.6144230769232" y="1140.0" />
-                  <point x="3319.8470112802133" y="1140.0" />
-                  <point x="-36.5" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.9">
-                  <point x="0.0" y="-15.0" />
-                  <point x="5379.9370477442235" y="1710.0" />
-                  <point x="5341.535459118838" y="1710.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/junit:junit:jar:4.12">
-                  <point x="51.80000000000018" y="-15.0" />
-                  <point x="4586.238475477179" y="1940.0" />
-                  <point x="6535.5828810775565" y="1940.0" />
-                  <point x="-15.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="29.59999999999991" y="-15.0" />
-                  <point x="4564.0384754771785" y="1910.0" />
-                  <point x="4758.191457287336" y="1910.0" />
-                  <point x="4758.191457287336" y="1410.0" />
-                  <point x="4683.634511280214" y="1410.0" />
-                  <point x="6.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.xm:xmsc-bean:jar:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="0.0" y="-15.0" />
-                  <point x="2637.5970112802133" y="1660.0" />
-                  <point x="1521.7011779468796" y="1660.0" />
-                  <point x="6.58333333333303" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="56.25" y="-15.0" />
-                  <point x="3525.9720112802133" y="600.0" />
-                  <point x="3691.1290625622646" y="600.0" />
-                  <point x="-19.384615384615245" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
-                  <point x="4.5" y="-15.0" />
-                  <point x="4193.784511280213" y="1580.0" />
-                  <point x="3875.32617794688" y="1580.0" />
-                  <point x="-9.75" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.code.findbugs:jsr305:jar:1.3.9">
-                  <point x="0.0" y="-15.0" />
-                  <point x="2489.4095112802133" y="690.0" />
-                  <point x="2499.6595112802133" y="690.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.xm:xmsc-bean:jar:0.0.1-SNAPSHOT">
-                  <point x="-44.40000000000009" y="-15.0" />
-                  <point x="4490.0384754771785" y="1870.0" />
-                  <point x="2663.0970112802133" y="1870.0" />
-                  <point x="25.5" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
-                  <point x="44.11764705882342" y="-15.0" />
-                  <point x="1027.564611380964" y="1690.0" />
-                  <point x="2703.559511280213" y="1690.0" />
-                  <point x="-63.600000000000364" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="7.352941176470267" y="-15.0" />
-                  <point x="990.7999054986108" y="1620.0" />
-                  <point x="1208.3649460654142" y="1620.0" />
-                  <point x="1208.3649460654142" y="1370.0" />
-                  <point x="1416.45117794688" y="1370.0" />
-                  <point x="-26.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE">
-                  <point x="-7.352941176470267" y="-15.0" />
-                  <point x="976.0940231456702" y="1600.0" />
-                  <point x="994.208333333333" y="1600.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1829.07617794688" y="60.0" />
-                  <point x="635.2011779468803" y="60.0" />
-                  <point x="48.66666666666697" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2">
-                  <point x="-6.625" y="-15.0" />
-                  <point x="2760.5345112802133" y="1310.0" />
-                  <point x="2848.1144230769232" y="1310.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT/javax.persistence:persistence-api:jar:1.0">
-                  <point x="13.5" y="-15.0" />
-                  <point x="4202.784511280213" y="1570.0" />
-                  <point x="3997.32617794688" y="1570.0" />
-                  <point x="3997.32617794688" y="1390.0" />
-                  <point x="3995.82617794688" y="1390.0" />
-                  <point x="-32.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE">
-                  <point x="-27.0" y="-15.0" />
-                  <point x="4649.884511280214" y="1150.0" />
-                  <point x="4671.384511280214" y="1150.0" />
-                  <point x="4671.384511280214" y="550.0" />
-                  <point x="1750.6011779468797" y="550.0" />
-                  <point x="50.399999999999636" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-test:jar:4.3.13.RELEASE">
-                  <point x="44.40000000000009" y="-15.0" />
-                  <point x="4578.83847547718" y="1930.0" />
-                  <point x="4952.863238220414" y="1930.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.xm:xmsc-bean:jar:0.0.1-SNAPSHOT">
-                  <point x="-17.25" y="-15.0" />
-                  <point x="2697.86740488708" y="1910.0" />
-                  <point x="2612.0970112802133" y="1910.0" />
-                  <point x="-25.5" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:1.5.8.RELEASE">
-                  <point x="28.92857142857156" y="-15.0" />
-                  <point x="3256.108273845951" y="2060.0" />
-                  <point x="4982.0203810775565" y="2060.0" />
-                  <point x="4982.0203810775565" y="1260.0" />
-                  <point x="4697.134511280214" y="1260.0" />
-                  <point x="20.25" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.checkerframework:checker-compat-qual:jar:2.0.0">
-                  <point x="-28.399999999999636" y="-15.0" />
-                  <point x="2461.0095112802137" y="710.0" />
-                  <point x="2141.1595112802133" y="710.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="13.0" y="-15.0" />
-                  <point x="1455.45117794688" y="1140.0" />
-                  <point x="1587.45117794688" y="1140.0" />
-                  <point x="1587.45117794688" y="270.0" />
-                  <point x="1738.82617794688" y="270.0" />
-                  <point x="-21.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE">
-                  <point x="-10.75" y="-15.0" />
-                  <point x="1703.82617794688" y="1350.0" />
-                  <point x="1626.70117794688" y="1350.0" />
-                  <point x="1626.70117794688" y="380.0" />
-                  <point x="1514.95117794688" y="380.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.11">
-                  <point x="-31.0" y="-15.0" />
-                  <point x="363.5" y="1420.0" />
-                  <point x="304.0" y="1420.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE">
-                  <point x="-57.75" y="-15.0" />
-                  <point x="5720.0203810775565" y="1730.0" />
-                  <point x="5661.535459118838" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="-10.5" y="-15.0" />
-                  <point x="3124.6595112802133" y="810.0" />
-                  <point x="3039.6595112802133" y="810.0" />
-                  <point x="3039.6595112802133" y="590.0" />
-                  <point x="3684.667524100726" y="590.0" />
-                  <point x="-25.84615384615381" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20">
-                  <point x="0.0" y="-15.0" />
-                  <point x="2002.32617794688" y="1020.0" />
-                  <point x="1965.32617794688" y="1020.0" />
-                  <point x="20.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="15.75" y="-15.0" />
-                  <point x="1715.95117794688" y="350.0" />
-                  <point x="1576.45117794688" y="350.0" />
-                  <point x="1576.45117794688" y="170.0" />
-                  <point x="1812.7684856391877" y="170.0" />
-                  <point x="-16.307692307692378" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0">
-                  <point x="-14.083333333333485" y="-15.0" />
-                  <point x="3531.0553446135464" y="1000.0" />
-                  <point x="3458.7220112802133" y="1000.0" />
-                  <point x="3458.7220112802133" y="780.0" />
-                  <point x="3017.2845112802133" y="780.0" />
-                  <point x="35.625" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
-                  <point x="-45.0" y="-15.0" />
-                  <point x="3525.2220112802133" y="710.0" />
-                  <point x="3499.7220112802133" y="710.0" />
-                  <point x="30.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11">
-                  <point x="77.625" y="-15.0" />
-                  <point x="6412.7703810775565" y="1420.0" />
-                  <point x="6545.868792452171" y="1420.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.6">
-                  <point x="-36.764705882353155" y="-15.0" />
-                  <point x="946.6822584397873" y="1700.0" />
-                  <point x="529.0" y="1700.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20">
-                  <point x="-33.125" y="-15.0" />
-                  <point x="2734.0345112802133" y="1340.0" />
-                  <point x="1968.32617794688" y="1340.0" />
-                  <point x="-34.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0">
-                  <point x="16.5" y="-15.0" />
-                  <point x="4473.634511280214" y="1730.0" />
-                  <point x="4504.634511280214" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.9.2">
-                  <point x="-22.5" y="-15.0" />
-                  <point x="4166.784511280213" y="1610.0" />
-                  <point x="2798.9595112802135" y="1610.0" />
-                  <point x="31.800000000000182" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-service:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="-51.75" y="-15.0" />
-                  <point x="2663.36740488708" y="1940.0" />
-                  <point x="1433.784511280213" y="1940.0" />
-                  <point x="-8.66666666666697" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-api:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.13.RELEASE">
-                  <point x="-41.785714285714675" y="-15.0" />
-                  <point x="3185.3939881316646" y="2080.0" />
-                  <point x="451.5" y="2080.0" />
-                  <point x="451.5" y="1360.0" />
-                  <point x="1399.117844613547" y="1360.0" />
-                  <point x="-43.33333333333303" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2">
-                  <point x="36.5" y="-15.0" />
-                  <point x="3392.8470112802133" y="910.0" />
-                  <point x="3166.6595112802133" y="910.0" />
-                  <point x="31.5" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20">
-                  <point x="0.0" y="-15.0" />
-                  <point x="983.4469643221405" y="1610.0" />
-                  <point x="1108.6352564102563" y="1610.0" />
-                  <point x="1108.6352564102563" y="1020.0" />
-                  <point x="1882.32617794688" y="1020.0" />
-                  <point x="-62.25" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
-                  <point x="14.083333333333485" y="-15.0" />
-                  <point x="3559.2220112802133" y="990.0" />
-                  <point x="3469.7220112802133" y="990.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.9.2">
-                  <point x="-14.800000000000182" y="-15.0" />
-                  <point x="4519.638475477179" y="1830.0" />
-                  <point x="4319.934511280213" y="1830.0" />
-                  <point x="4319.934511280213" y="1510.0" />
-                  <point x="3839.0261779468797" y="1510.0" />
-                  <point x="67.19999999999982" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.yaml:snakeyaml:jar:1.17">
-                  <point x="62.0" y="-15.0" />
-                  <point x="6484.8328810775565" y="1720.0" />
-                  <point x="6707.368792452171" y="1720.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20" target="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0">
-                  <point x="-16.5" y="-15.0" />
-                  <point x="4440.634511280214" y="1730.0" />
-                  <point x="4409.634511280214" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.mybatis:mybatis-spring:jar:1.3.1">
-                  <point x="-94.875" y="-15.0" />
-                  <point x="5127.5620477442235" y="1930.0" />
-                  <point x="5056.0203810775565" y="1930.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="45.33333333333303" y="-15.0" />
-                  <point x="2047.659511280213" y="570.0" />
-                  <point x="3671.744447177649" y="570.0" />
-                  <point x="-38.769230769230944" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
-                  <point x="23.5" y="-15.0" />
-                  <point x="5994.0203810775565" y="1730.0" />
-                  <point x="6009.535459118838" y="1730.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20" target="io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4">
-                  <point x="-45.33333333333303" y="-15.0" />
-                  <point x="1956.992844613547" y="1010.0" />
-                  <point x="1482.70117794688" y="1010.0" />
-                  <point x="40.25" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2">
-                  <point x="52.5" y="-15.0" />
-                  <point x="2900.6144230769232" y="1130.0" />
-                  <point x="3219.6595112802133" y="1130.0" />
-                  <point x="3219.6595112802133" y="1020.0" />
-                  <point x="3243.5970112802133" y="1020.0" />
-                  <point x="-43.875" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger-ui:jar:2.9.2" target="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="3771.82617794688" y="1150.0" />
-                  <point x="3601.4720112802133" y="1150.0" />
-                  <point x="56.333333333333485" y="15.0" />
-                </edge>
-                <edge source="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.mybatis:mybatis:jar:3.4.5">
-                  <point x="31.625" y="-15.0" />
-                  <point x="5254.0620477442235" y="1930.0" />
-                  <point x="5259.9370477442235" y="1930.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1760.57617794688" y="180.0" />
-                  <point x="1820.9223317930343" y="180.0" />
-                  <point x="-8.153846153845734" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE">
-                  <point x="-22.75" y="-15.0" />
-                  <point x="4812.113238220414" y="250.0" />
-                  <point x="1811.32617794688" y="250.0" />
-                  <point x="50.75" y="15.0" />
-                </edge>
-                <edge source="io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2" target="com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20">
-                  <point x="-73.5" y="-15.0" />
-                  <point x="2774.6144230769232" y="1140.0" />
-                  <point x="2310.7331239540026" y="1140.0" />
-                  <point x="2310.7331239540026" y="1010.0" />
-                  <point x="2006.82617794688" y="1010.0" />
-                  <point x="62.25" y="15.0" />
-                </edge>
-                <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25" target="tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="0.0" y="-15.0" />
-                  <point x="6238.222959118838" y="510.0" />
-                  <point x="3736.3598317930337" y="510.0" />
-                  <point x="25.84615384615381" y="15.0" />
-                </edge>
-                <edge source="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE">
-                  <point x="-25.5" y="-15.0" />
-                  <point x="1489.45117794688" y="160.0" />
-                  <point x="1804.614639485342" y="160.0" />
-                  <point x="-24.46153846153811" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-config:jar:0.0.1-SNAPSHOT" target="org.hibernate.validator:hibernate-validator:jar:6.0.12.Final">
-                  <point x="-7.400000000000091" y="-15.0" />
-                  <point x="4527.0384754771785" y="1820.0" />
-                  <point x="4327.334511280213" y="1820.0" />
-                  <point x="4327.334511280213" y="1500.0" />
-                  <point x="4275.734511280213" y="1500.0" />
-                  <point x="30.199999999999818" y="15.0" />
-                </edge>
-                <edge source="com.xm:xmsc-dal:jar:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                  <point x="-40.5" y="-15.0" />
-                  <point x="4148.784511280213" y="1630.0" />
-                  <point x="1548.0345112802136" y="1630.0" />
-                  <point x="32.91666666666697" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5704323408301191" x="435.7335082908187" y="1883.7335082908187" />
-              <SelectedNodes>
-                <node>com.xm:xmsc-api:0.0.1-SNAPSHOT</node>
-              </SelectedNodes>
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
+            <state relative-caret-position="85">
+              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -1593,7 +66,7 @@
       <file leaf-file-name="XmscApiApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="185">
               <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1602,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/AccountController.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -1635,8 +108,9 @@
       <find>slf4j-</find>
       <find>spring-web</find>
       <find>log4j</find>
-      <find>sl</find>
       <find>slf</find>
+      <find>sl</find>
+      <find>pro</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/xmsc-service/src/main</dir>
@@ -1689,18 +163,18 @@
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AccessInterceptor.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/OrderController.java" />
-        <option value="$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" />
         <option value="$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/AccountController.java" />
         <option value="$PROJECT_DIR$/xmsc-common/pom.xml" />
-        <option value="$PROJECT_DIR$/xmsc-api/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-bean/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-config/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-dal/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-service/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java" />
+        <option value="$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xmsc-api/pom.xml" />
       </list>
     </option>
   </component>
@@ -1736,9 +210,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="456" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-28" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="738" />
   </component>
@@ -1794,6 +268,24 @@
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmscapi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
               <item name="xmsc-bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1809,29 +301,6 @@
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-classic:1.1.11" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-classic:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-classic-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-classic:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-classic-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -2047,7 +516,7 @@
       <workItem from="1539767199035" duration="12247000" />
       <workItem from="1539929593727" duration="7321000" />
       <workItem from="1540087238930" duration="37074000" />
-      <workItem from="1540288986653" duration="3062000" />
+      <workItem from="1540288986653" duration="4293000" />
     </task>
     <servers />
   </component>
@@ -2060,15 +529,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59704000" />
+    <option name="totallyTimeSpent" value="60935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="34" width="1280" height="738" extended-state="0" />
+    <frame x="-28" y="23" width="1280" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.6491713" visible="true" weight="0.17932148" />
+      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.64666665" visible="true" weight="0.17932148" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -2083,13 +552,13 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.51170045" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.5319813" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3283859" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28771386" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.35082874" side_tool="true" weight="0.17932148" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.35333332" side_tool="true" visible="true" weight="0.17932148" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27145085" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2979719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -2114,13 +583,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/BugService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -2187,24 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -3275,16 +1723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-963">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4804,17 +3242,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="25">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+        <state relative-caret-position="131">
+          <caret line="364" column="5" selection-start-line="364" selection-start-column="2" selection-end-line="364" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
