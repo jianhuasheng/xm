@@ -6,7 +6,7 @@
     <groupId>com.xm</groupId>
     <artifactId>xmsc-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>xmsc-config</name>
     <description>Demo project for Spring Boot</description>

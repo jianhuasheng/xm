@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-api" />
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-bean" />
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-common" />
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-config" />
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-dal" />
+    <file type="web" url="file://$PROJECT_DIR$/xmsc-service" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
