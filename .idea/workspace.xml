@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c953d6-116d-4524-b616-568e48b923c7" name="Default" comment="" />
+    <list default="true" id="98c953d6-116d-4524-b616-568e48b923c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-bean/src/test/java/com/xm/xmscbean/XmscBeanApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-bean/target/test-classes/com/xm/xmscbean/XmscBeanApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-dal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-dal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xmsc-bean/target/" />
     <ignored path="$PROJECT_DIR$/xmsc-admin/target/" />
@@ -23,7 +32,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/xmsc$XmscBeanApplication.ic" NAME="XmscBeanApplication Coverage Results" MODIFIED="1539769378072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplication.ic" NAME="XmscAdminApplication Coverage Results" MODIFIED="1540261251681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540276116928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540280854852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xm.xmscapi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplicationTests_contextLoads.ic" NAME="XmscAdminApplicationTests.contextLoads Coverage Results" MODIFIED="1539929988402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -41,8 +50,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-bean/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-458">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="58">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -59,8 +68,20 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state relative-caret-position="115">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmscApiApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +98,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-dal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="21">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -92,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmscDalApplicationTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XmscDalApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +128,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="62">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -118,18 +139,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmscApiApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-api/src/test/java/com/xm/xmscapi/XmscApiApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -151,11 +160,15 @@
       <find>xmscadmin</find>
       <find>white.urls</find>
       <find>log4j</find>
+      <find>spring-boot-starter-web</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/xmsc-service/src/main</dir>
       <dir>$PROJECT_DIR$/xmsc-admin/src/test/java/com/xm/xmscadmin</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -204,13 +217,13 @@
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/AccountController.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java" />
         <option value="$PROJECT_DIR$/xmsc-api/pom.xml" />
-        <option value="$PROJECT_DIR$/xmsc-bean/pom.xml" />
-        <option value="$PROJECT_DIR$/xmsc-service/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-config/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-common/pom.xml" />
-        <option value="$PROJECT_DIR$/xmsc-dal/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java" />
+        <option value="$PROJECT_DIR$/xmsc-dal/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xmsc-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xmsc-bean/pom.xml" />
       </list>
     </option>
   </component>
@@ -229,44 +242,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -274,11 +250,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
+    <option name="x" value="-91" />
     <option name="y" value="23" />
-    <option name="width" value="1163" />
-    <option name="height" value="587" />
+    <option name="width" value="1414" />
+    <option name="height" value="636" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -292,6 +269,32 @@
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
@@ -515,7 +518,7 @@
       <updated>1539767194540</updated>
       <workItem from="1539767199035" duration="12247000" />
       <workItem from="1539929593727" duration="7321000" />
-      <workItem from="1540087238930" duration="28774000" />
+      <workItem from="1540087238930" duration="30167000" />
     </task>
     <servers />
   </component>
@@ -528,14 +531,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48342000" />
+    <option name="totallyTimeSpent" value="49735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="23" width="1163" height="587" extended-state="0" />
+    <frame x="-221" y="23" width="1414" height="636" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.81395346" visible="true" weight="0.3853702" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.6536585" visible="true" weight="0.22813411" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -545,18 +549,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28685898" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.26523888" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.26345083" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.6210873" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.35992578" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.9472817" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.18604651" side_tool="true" weight="0.33271718" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.34634146" side_tool="true" weight="0.44023323" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.56122446" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17127565" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30612245" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1734694" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1927966" />
@@ -616,13 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/java/com/ggj/hqbs/life/entity/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -872,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -896,20 +886,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -934,10 +910,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-dal/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,17 +927,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xmsc-dal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="21">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/xmsc-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="62">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-bean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-bean/src/test/java/com/xm/xmscbean/XmscBeanApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
