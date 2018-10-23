@@ -2,7 +2,7 @@ spring:
   application:
     name: xmsc-api
   profiles:
-    active: @env@
+    active: dev
     include: common
   resources:
     static-locations: classpath:/META-INF/resources/statics/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
