@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: xmsc-api
+  profiles:
+    active: dev
+    include: common
+  resources:
+    static-locations: classpath:/META-INF/resources/statics/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+server:
+  port: 8080
+  session:
+    cookie:
+      max-age: 28800
+  tomcat:
+    uri-encoding: utf-8
+#  context-path: /api
+
+
+

@@ -1,0 +1,18 @@
+
+spring:
+  profiles:
+    include: common-prod
+
+system:
+  props:
+    frontServer: forward:/index.html
+    platform:
+      type: 22
+      cacheKey: admin_orders_platform_types
+
+cas:
+  clientHostUrl: https://life-admin.gegejia.com
+  serverHostUrl: http://47.96.222.109/ygg-sso
+
+white:
+  urls:
