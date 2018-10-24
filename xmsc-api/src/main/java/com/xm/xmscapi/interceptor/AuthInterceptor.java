@@ -49,7 +49,10 @@ public class AuthInterceptor extends HandlerInterceptorAdapter implements Initia
         Method method = handlerMethod.getMethod();
 
         AppAuth annotation=method.getAnnotation(AppAuth.class);
-        boolean requireLogin=annotation.requireLogin();
+        boolean requireLogin=false;
+        if(annotation!=null){
+            requireLogin=annotation.requireLogin();
+        }
         if(!requireLogin){
             return true;
         }

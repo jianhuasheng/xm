@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c953d6-116d-4524-b616-568e48b923c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DbContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/XmscApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/XmscApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/web/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/web/ShopController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/RoutingDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/RoutingDataSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/dataSource/DataSourceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/dataSource/DataSourceConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmsc-service/target/classes/com/xm/impl/BugServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/target/classes/com/xm/impl/BugServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xmsc-bean/target/" />
@@ -33,7 +33,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/xmsc$XmscBeanApplication.ic" NAME="XmscBeanApplication Coverage Results" MODIFIED="1539769378072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplication.ic" NAME="XmscAdminApplication Coverage Results" MODIFIED="1540261251681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540345163567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/xmsc$XmscApiApplication.ic" NAME="XmscApiApplication Coverage Results" MODIFIED="1540351976381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xm.xmscapi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/xmsc$XmscAdminApplicationTests_contextLoads.ic" NAME="XmscAdminApplicationTests.contextLoads Coverage Results" MODIFIED="1539929988402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -48,19 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="XmscApiApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="97">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,51 +60,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfiguration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java">
+      <file leaf-file-name="Bugs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/Bugs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="124" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoutingDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbContextHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DbContextHolder.java">
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/application.yml">
+      <file leaf-file-name="ShopController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="297">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BugService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/BugService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BugServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertMapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -146,6 +150,10 @@
       <find>pro</find>
       <find>spring-boot-starter-web</find>
       <find>mysql-connector-java</find>
+      <find>spring-boot-starter</find>
+      <find>&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</find>
+      <find>RoutingDataSource</find>
+      <find>spring</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/xmsc-service/src/main</dir>
@@ -180,12 +188,10 @@
         <option value="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceType.java" />
         <option value="$PROJECT_DIR$/xmsc-dal/src/main/java/com/ggj/hqbs/life/mapper/BugsMapper.java" />
         <option value="$PROJECT_DIR$/xmsc-dal/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/xmscadmin/web/ShopController.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/xmscadmin/XmscAdminApplication.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/BugService.java" />
-        <option value="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/web/ShopController.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/XmscAdminApplication.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/dto/BaseDTO.java" />
@@ -193,14 +199,11 @@
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/facade/AccountFacade.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AccessInterceptor.java" />
-        <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/OrderController.java" />
-        <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" />
         <option value="$PROJECT_DIR$/xmsc-dal/src/test/java/com/xm/xmscdal/XmscDalApplicationTests.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/AccountController.java" />
         <option value="$PROJECT_DIR$/xmsc-common/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-bean/pom.xml" />
-        <option value="$PROJECT_DIR$/xmsc-config/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-dal/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-service/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-api/pom.xml" />
@@ -209,7 +212,12 @@
         <option value="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DbContextHolder.java" />
         <option value="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xmsc-config/pom.xml" />
         <option value="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" />
+        <option value="$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -231,18 +239,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="xmsc-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="xmsc-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmsc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="xmsc-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -252,9 +260,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
+    <option name="x" value="-133" />
     <option name="y" value="23" />
-    <option name="width" value="1119" />
+    <option name="width" value="1197" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -270,6 +278,51 @@
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmscapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmscapi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
@@ -340,12 +393,97 @@
               <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmsc" type="462c0819:PsiDirectoryNode" />
               <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xm" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
+              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
@@ -380,11 +518,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xm.entity" />
       <recent name="com.xm.xmscconfig.dataSource" />
       <recent name="com.xm.xmscapi.config" />
       <recent name="com.xm.xmscapi.dto" />
       <recent name="com.xm.xmscapi.facade" />
-      <recent name="com.xm.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xmsc-api/src/main/resources" />
@@ -570,7 +708,7 @@
       <workItem from="1539767199035" duration="12247000" />
       <workItem from="1539929593727" duration="7321000" />
       <workItem from="1540087238930" duration="37074000" />
-      <workItem from="1540288986653" duration="10607000" />
+      <workItem from="1540288986653" duration="15076000" />
     </task>
     <servers />
   </component>
@@ -583,14 +721,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67249000" />
+    <option name="totallyTimeSpent" value="71718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="23" width="1119" height="738" extended-state="0" />
+    <frame x="-133" y="23" width="1197" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.6497175" visible="true" weight="0.09935005" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.44329005" side_tool="true" weight="0.28237128" />
+      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.64941174" visible="true" weight="0.19480519" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -600,18 +739,18 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28685898" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.26342282" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.26209047" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.4477379" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.37285492" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2854914" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.3502825" side_tool="true" visible="true" weight="0.09935005" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55670995" weight="0.28237128" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.35058823" side_tool="true" weight="0.19480519" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.44929796" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16620241" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.53666145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26926407" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1927966" />
@@ -636,21 +775,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xmsc-admin/src/test/java/com/xm/xmscadmin/XmscAdminApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/xmsc-admin/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/XmscAdminApplication.java" />
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/dto/BaseDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/bean/TokenProvider.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/bean/AppContext.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/bean/annotation/RoleEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/bean/JwtUser.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -688,24 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -716,6 +826,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,6 +843,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -806,13 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -3305,23 +3414,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DbContextHolder.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
@@ -3330,10 +3436,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="uml://MAVEN/com.xm:xmsc-config:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.xm:xmsc-config:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xm:xmsc-config:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.6</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.springframework.security:spring-security-core:jar:4.2.1.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.checkerframework:checker-compat-qual:jar:2.0.0</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.errorprone:error_prone_annotations:jar:2.1.3</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/com.google.guava:guava:jar:23.6-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/io.swagger:swagger-annotations:jar:1.5.20</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">com.xm:xmsc-common:jar:0.0.1-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.16.20</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.13.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">com.xm:xmsc-bean:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4/com.fasterxml.jackson.core:jackson-core:jar:2.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/net.bytebuddy:byte-buddy:jar:1.8.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
+            <node x="" y="">javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-test:jar:5.0.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final</node>
+            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.12.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">ch.qos.logback:logback-core:jar:1.1.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.3/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.45</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6947254840234239" x="576.501260764661" y="1288.7025234100133" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="93">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="170" column="11" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+          <folding>
+            <element signature="e#7483#7484#0" expanded="true" />
+            <element signature="e#7510#7511#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3346,11 +3587,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="604">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/XmscApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/Bugs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/BugService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>

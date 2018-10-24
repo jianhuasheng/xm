@@ -33,7 +33,7 @@ public class DataSourceConfiguration {
     private String readPassword="111111";
 
 
-    @Primary
+
     @Bean
     public RoutingDataSource roundRobinDataSourceProxy() {
         RoutingDataSource proxy = new RoutingDataSource();
@@ -50,6 +50,7 @@ public class DataSourceConfiguration {
      *
      * @return
      */
+    @Primary
     @Bean(name = "writeDataSource", initMethod = "init")
     public DataSource writeDataSource() {
         log.info("写库初始化");
