@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c953d6-116d-4524-b616-568e48b923c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/web/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/web/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-api/target/classes/com/xm/xmscapi/web/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/src/main/java/com/xm/xmscconfig/dataSource/DataSourceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/dataSource/DataSourceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-config/target/classes/com/xm/xmscconfig/dataSource/DataSourceConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmsc-service/target/classes/com/xm/impl/BugServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xmsc-service/target/classes/com/xm/impl/BugServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xmsc-bean/target/" />
@@ -104,11 +97,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BugServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BugServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="60">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <caret line="393" column="18" selection-start-line="393" selection-start-column="18" selection-end-line="393" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -167,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xmsc-common/src/main/java/com/xm/xmsccommon/exception/BizException.java" />
         <option value="$PROJECT_DIR$/xmsc-common/src/main/java/com/xm/xmsccommon/utils/BusinessAssert.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/xmscadmin/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/xmsc-admin/src/main/java/com/xm/xmscadmin/dto/BaseDTO.java" />
@@ -218,6 +228,7 @@
         <option value="$PROJECT_DIR$/xmsc-dal/src/main/java/com/xm/entity/BaseEntity.java" />
         <option value="$PROJECT_DIR$/xmsc-api/src/main/java/com/xm/xmscapi/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,7 +271,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-133" />
+    <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="1197" />
     <option name="height" value="738" />
@@ -282,208 +293,7 @@
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xmscapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xmscapi" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xmscconfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xmscconfig" type="462c0819:PsiDirectoryNode" />
-              <item name="dataSource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xm" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xm" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xm" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmsc" type="462c0819:PsiDirectoryNode" />
-              <item name="xmsc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmsc" type="b2602c69:ProjectViewProjectNode" />
@@ -505,7 +315,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="staticlogger&#9;FILE&#9;jar:///Users/shengjianhua/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java&#10;DataSou&#9;FILE&#9;file:///Users/shengjianhua/Documents/xiaomei/xmsc/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java&#10;Bug&#9;PSI&#9;JAVA://com.ggj.hqbs.life.entity.Bugs&#10;org.pro&#9;FILE&#9;jar:///Users/shengjianhua/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/META-INF/services/org.mapstruct.ap.spi.AstModifyingAnnotationProcessor&#10;CommonConstant&#9;FILE&#9;file:///Users/shengjianhua/Documents/xiaomei/xmsc/xmsc-common/src/main/java/com/xm/xmsccommon/CommonConstant.java" />
+    <property name="SearchEverywhereHistoryKey" value="workspace&#9;FILE&#9;file:///Users/shengjianhua/Documents/xiaomei/xmsc/.idea/workspace.xml&#10;staticlogger&#9;FILE&#9;jar:///Users/shengjianhua/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java&#10;DataSou&#9;FILE&#9;file:///Users/shengjianhua/Documents/xiaomei/xmsc/xmsc-config/src/main/java/com/xm/xmscconfig/RoutingDataSource.java&#10;Bug&#9;PSI&#9;JAVA://com.ggj.hqbs.life.entity.Bugs&#10;org.pro&#9;FILE&#9;jar:///Users/shengjianhua/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/META-INF/services/org.mapstruct.ap.spi.AstModifyingAnnotationProcessor&#10;CommonConstant&#9;FILE&#9;file:///Users/shengjianhua/Documents/xiaomei/xmsc/xmsc-common/src/main/java/com/xm/xmsccommon/CommonConstant.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -708,7 +518,7 @@
       <workItem from="1539767199035" duration="12247000" />
       <workItem from="1539929593727" duration="7321000" />
       <workItem from="1540087238930" duration="37074000" />
-      <workItem from="1540288986653" duration="15076000" />
+      <workItem from="1540288986653" duration="15591000" />
     </task>
     <servers />
   </component>
@@ -721,15 +531,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71718000" />
+    <option name="totallyTimeSpent" value="72233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-133" y="23" width="1197" height="738" extended-state="0" />
+    <frame x="62" y="23" width="1197" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.44329005" side_tool="true" weight="0.28237128" />
-      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.64941174" visible="true" weight="0.19480519" />
+      <window_info anchor="right" id="Maven Projects" order="10" sideWeight="0.6492537" visible="true" weight="0.19480519" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -744,13 +554,13 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.37285492" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.5600624" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3283859" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55670995" weight="0.28237128" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.35058823" side_tool="true" weight="0.19480519" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.35074627" side_tool="true" weight="0.19480519" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.53666145" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26926407" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32917318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22164503" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1927966" />
@@ -850,20 +660,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-bean/src/test/java/com/xm/xmscbean/XmscBeanApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="393" column="18" selection-start-line="393" selection-start-column="18" selection-end-line="393" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-api/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -3648,8 +3444,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xmsc-service/src/main/java/com/xm/impl/BugServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="393" column="18" selection-start-line="393" selection-start-column="18" selection-end-line="393" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
