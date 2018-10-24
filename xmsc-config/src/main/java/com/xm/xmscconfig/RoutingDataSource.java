@@ -1,7 +1,14 @@
 package com.xm.xmscconfig;
 
 
+import com.xm.xmscconfig.dataSource.DbContextHolder;
+import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
-public class RoutingDataSource {
+public class RoutingDataSource extends AbstractRoutingDataSource {
+
+    @Override
+    protected Object determineCurrentLookupKey() {
+        return DbContextHolder.getDataSourceType();
+    }
 
 }

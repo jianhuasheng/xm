@@ -18,24 +18,19 @@ import java.util.Map;
 @EnableTransactionManagement
 @Slf4j
 public class DataSourceConfiguration {
-    @Value("${mysql.local_life_w.jdbc.url}")
-    private String writeDbUrl;
+    private final static String MYSQL_SUFFIX = "?useUnicode=true&characterEncoding=utf-8&useSSL=false";
 
-    @Value("${mysql.local_life_w.jdbc.username}")
-    private String writeUsername;
+    private String writeDbUrl="jdbc:mysql://localhost:3306/test";
 
-    @Value("${mysql.local_life_w.jdbc.password}")
-    private String writePassword;
+    private String writeUsername="root";
 
-    @Value("${mysql.local_life_w.jdbc.url}")
-    private String readDbUrl;
+    private String writePassword="111111";
 
-    @Value("${mysql.local_life_w.jdbc.username}")
-    private String readUsername;
+    private String readDbUrl="jdbc:mysql://localhost:3306/test";
 
-    @Value("${mysql.local_life_w.jdbc.password}")
-    private String readPassword;
+    private String readUsername="root";
 
+    private String readPassword="111111";
 
 
     @Primary
@@ -45,6 +40,8 @@ public class DataSourceConfiguration {
         Map<Object, Object> targetDataResources = new HashMap<>();
         targetDataResources.put(DataSourceType.WRITE, writeDataSource());
         targetDataResources.put(DataSourceType.READ, readDataSource());
+        proxy.setDefaultTargetDataSource(readDataSource());//默认源
+        proxy.setTargetDataSources(targetDataResources);
         return proxy;
     }
 
@@ -59,7 +56,7 @@ public class DataSourceConfiguration {
         log.debug("url:{}, user:{}, password:{}", writeDbUrl, writeUsername, writePassword);
 
         DruidDataSource datasource = new DruidDataSource();
-        datasource.setUrl(writeDbUrl);
+        datasource.setUrl(writeDbUrl+MYSQL_SUFFIX);
         datasource.setUsername(writeUsername);
         datasource.setPassword(writePassword);
         datasource.setInitialSize(30);
@@ -75,18 +72,13 @@ public class DataSourceConfiguration {
         return datasource;
     }
 
-    /**
-     * 读库
-     *
-     * @return
-     */
     @Bean(name = "readDataSource", initMethod = "init")
     public DataSource readDataSource() {
         log.info("读库初始化");
         log.debug("url:{}, user:{}, password:{}", readDbUrl, readUsername, readPassword);
 
         DruidDataSource datasource = new DruidDataSource();
-        datasource.setUrl(readDbUrl);
+        datasource.setUrl(readDbUrl+MYSQL_SUFFIX);
         datasource.setUsername(readUsername);
         datasource.setPassword(readPassword);
         datasource.setInitialSize(30);
