@@ -12,8 +12,7 @@ import javax.annotation.Resource;
 /**
  * 店铺
  *
- * @author LiuGaoJian
- * @version 1.0 2018/4/26
+ * @author ShengJianhua
  */
 @RestController
 @RequestMapping("/api/shop")
