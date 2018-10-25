@@ -21,7 +21,6 @@ public class ShopController {
     @Resource
     private BugService bugService;
 
-
     @RequestMapping("hello")
     @Description("店铺列表")
     public Object listByPage() {
