@@ -1,0 +1,48 @@
+
+# 配置中心
+xconf:
+  zkAddress: 192.168.2.40:2181,192.168.2.40:2182,192.168.2.40:2183
+  groups: mysql,redis
+
+
+# dubbo
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 192.168.2.40:2181,192.168.2.40:2182,192.168.2.40:2183
+    timeout: 5000
+  consumer:
+    retries: 0
+    filter: -unchecked,elapsedTimeFilter
+
+
+life:
+  props:
+    frontHtmlUrl: https://test-life-m.51bushou.com
+    sellerH5Url: ${life.props.frontHtmlUrl}/shop
+    partnerH5Url: ${life.props.frontHtmlUrl}/partner
+    es:
+      cluster-name: b2b
+      node-name: b2b_2
+      node-list: 121.41.72.199:9100
+      node-master: false
+      node-data: false
+      node-ingest: false
+      client-transport-sniff: true
+
+# ons配置
+ons:
+  prop:
+    accessKey: LTAI9TxYmVRUdZuV
+    secretKey: ljjrYfoNmKq6IZKa87AMCK14adYZ2M
+    producerId: PID_GGJ_BUSINESS_LIFE_TEST
+    consumerId: CID_LIFE_LOGISTICS_SUBSCRIBE_TEST
+    sendMsgTimeoutMillis: 3000
+    consumeThreadNums: 20
+    topic: GGJ_TOPIC_BUSINESS_LIFE_TEST
+    env: test
+    tags:
+      - TAG_LIFE_LOGISTICS_SUBSCRIBE_TEST
+      - TAG_LIFE_PRODUCT_UPDATE
+      - TAG_LIFE_MINI_ORDER_NOTIFY
+      - TAG_LIFE_CLEAN_OLD_FORMID

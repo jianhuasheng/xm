@@ -1,0 +1,27 @@
+logging:
+  config: classpath:logback-spring.xml
+
+mybatis:
+  type-aliases-package: com.ggj.hqbs.life.entity
+  mapper-locations: classpath:mapper/*.xml
+
+mapper:
+  mappers:
+    - tk.mybatis.mapper.common.Mapper
+  not-empty: true
+  identity: MYSQL
+# 分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+life:
+  props:
+    config1: helloworld
+    config2: hellolife
+# dubbo
+dubbo:
+  scan:
+    basePackages: com.ggj
