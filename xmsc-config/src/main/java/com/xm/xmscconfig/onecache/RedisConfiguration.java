@@ -9,13 +9,13 @@ import org.springframework.context.annotation.Bean;
 public class RedisConfiguration {
 
 
-    private String host;
+    private String host="39.105.84.4";
 
 
-    private Integer port;
+    private Integer port=22;
 
 
-    private String password;
+    private String password="Ab362329253";
 
     @Bean
     public RedisCacheConfig redisCacheConfig() {
