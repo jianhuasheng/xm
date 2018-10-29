@@ -1,27 +1,20 @@
-package com.ggj.hqbs.life.config.onecache;
+package com.xm.xmscconfig.onecache;
 
-import com.ggj.hqbs.life.config.xconf.XconfConfiguration;
-import com.ggj.platform.onecache.config.RedisCacheConfig;
-import com.ggj.platform.onecache.factory.CacheClientIF;
-import com.ggj.platform.onecache.factory.OneCacheFactory;
+
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
+
 @Slf4j
-@AutoConfigureAfter({XconfConfiguration.class})
 public class RedisConfiguration {
 
-    @Value("${redis.local_life.host}")
+
     private String host;
 
-    @Value("${redis.local_life.port}")
+
     private Integer port;
 
-    @Value("${redis.local_life.password}")
+
     private String password;
 
     @Bean
